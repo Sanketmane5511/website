@@ -1,0 +1,711 @@
+/* body{
+    background-color:;
+} */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    width: 100%;
+
+}
+
+nav {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav .nav_logo {
+    width: 35%;
+}
+
+nav .nav_logo h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+    margin-left: 40px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav .nav_links {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+nav .nav_links a {
+
+    width: 90%;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+
+}
+
+nav .nav_links a:hover {
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+nav .nav_links a:first-child {
+    color: #00b894;
+}
+
+.main_img {
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.main_img img {
+    height: 80vh;
+    width: 100%;
+}
+
+.product h1 {
+    margin-top: 30px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product .product_container {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.product .product_container .product_item {
+    width: 33.33%;
+    margin: 10px;
+    height: auto;
+}
+
+.product .product_container .product_item:hover {
+    background-color: #00b894;
+    transition: linear 0.3s;
+    color: white;
+}
+
+.product .product_container .product_item .product_img img {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.product .product_container .product_item .product_content {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.product .product_container .product_item .product_content h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product .product_container .product_item .product_content p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+
+}
+
+.product .product_container .product_item .product_content a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.product .product_container .product_item .product_content a:hover {
+    background-color: red;
+    transition: all 0.5s linear;
+    color: white;
+}
+
+.middle {
+    padding: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.middle h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.middle p {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+}
+
+.middle .product .product_container .product_item {
+    box-shadow: 0px 1px 10px 0px;
+}
+
+.middle .product .product_container .product_item:hover {
+    background-color: gray;
+    transition: linear 0.3s;
+    color: white;
+    box-shadow: 1px 0px 20px 0px;
+
+}
+
+.middle .product .product_container .product_item .product_content {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+
+}
+
+.middle .product .product_container .product_item .product_content h2 {
+    font-size: 30px;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.middle .product .product_container .product_item .product_content p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.middle .product .product_container .product_item .product_content a {
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.middle a:hover {
+    background-color: red;
+    transition: all 0.5s linear;
+    color: white;
+}
+
+.featured {
+    padding: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/people-gfce2fcb9d_1920.jpg );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.featured .main {
+    text-align: center;
+    margin-top: 3%;
+    margin-right: 44%;
+    font-size: 40px;
+    color: white;
+}
+
+.featured .main h1 {
+    text-shadow: 2px 2px black;
+}
+
+.featured .main p {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.featured .main .btn {
+    text-decoration: none;
+    color: white;
+    margin: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #00b894;
+    padding: 10px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+.featured .main .btn:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s all;
+}
+
+.policy {
+    margin-top: 40px;
+    padding: 50px;
+    background: rgba(172, 193, 34, 0.2);
+}
+
+.policy h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.policy .policy_container {
+    display: flex;
+}
+
+.policy .policy_container .policy_item {
+    width: 35%;
+    text-align: center;
+}
+
+.policy .policy_container .policy_item a {
+    color: rgb(109, 81, 67);
+}
+
+.policy .policy_container .policy_item:hover {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.policy .policy_container .policy_item .policy_content {
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+}
+
+.policy .policy_container .policy_item .policy_content h2 {
+    font-size: 24px;
+}
+
+.policy .policy_container .policy_item .policy_content a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    padding: 30px;
+    margin-left: 7%;
+    margin-top: 50px;
+    margin-right: 7%;
+}
+
+.about h1 {
+    text-align: center;
+    padding: 15px;
+}
+
+.about .about_container {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about .about_container .about_content {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.about .about_container .about_content li {
+    list-style: none;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.about .about_container .about_content li:hover {
+    color: red;
+    font-size: 22px;
+    border-left: 2px solid orange;
+    transition: 0.7s;
+}
+
+.about .about_container .about_img {
+    width: 50%;
+    float: right;
+}
+
+.about .about_container .about_img img {
+    width: 100%;
+    margin-right: 20%;
+}
+
+.last {
+    padding: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.last h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact {
+    padding: 40px;
+    margin-left: 15%;
+
+
+}
+
+.contact h1 {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.contact .contact_container {
+    display: flex;
+}
+
+.contact .contact_container .left_img {
+    width: 30%;
+}
+
+.contact .contact_container .left_img img {
+    width: 100%;
+    height: 331px;
+}
+
+.contact .contact_container .right_info {
+    width: 50%;
+    height: 331px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.contact .contact_container .right_info .elements {
+    margin-left: 130px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.contact .contact_container .right_info .elements p {
+    text-transform: uppercase;
+    padding: 5px;
+    color: white;
+}
+
+.contact .contact_container .right_info .elements input {
+    outline: none;
+    width: 230px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+}
+
+.contact .contact_container .right_info .elements a {
+    padding: 5px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-left: 11px;
+    background-color: aquamarine;
+
+}
+
+.contact .contact_container .right_info .elements a:hover {
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    height: 40vh;
+    width: 100%;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer .footer_container {
+    display: flex;
+    column-gap: 50px;
+    margin: 30px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.know_us h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer .know_us {
+    margin: 10px;
+}
+
+footer .know_us li {
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer .know_us li a {
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer .know_us li a:hover {
+    text-decoration: underline;
+    color: red;
+    font-size: 18px;
+}
+
+.about {
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 7%;
+    background-color: azure;
+
+}
+
+.about .about_img {
+    padding: 30px;
+    margin-left: 7%;
+    margin-right: 7%
+}
+
+.about .about_img img {
+    width: 500px;
+    display: flex;
+    float: left;
+    margin-right: 10%;
+}
+
+.about .about_content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.about .about_content h2 {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.mid {
+    padding: 40px;
+    text-align: center;
+}
+
+.mid h1 {
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+.mid p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product2 h1 {
+    margin-top: -10px;
+    text-align: center;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+
+}
+
+.product2 .product2_container {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.product2 .product2_container .product2_item {
+    width: 25%;
+    margin: 5px;
+    height: auto;
+}
+
+.product2 .product2_container .product2_item .product2_img img {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+
+}
+
+.product2 .product2_container .product2_item .product2_content {
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.product2 .product2_container .product2_item .product2_content h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.product2 .product2_container .product2_item .product2_content p {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+
+}
+
+.product2 .product2_container .product2_item .product2_content a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.slider {
+    padding: 30px;
+}
+
+.slider h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.ss {
+    display: flex;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.ss h1 {
+    text-align: center;
+}
+
+.ss .card {
+    width: 20%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border: none;
+    outline: none;
+}
+
+.ss .card:hover {
+    background-color: azure;
+    transition: all 0.5s ease;
+}
+
+.ss .card img {
+    height: 320px;
+
+}
+
+.ss .card-body {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.ss .btn {
+    background-color: orange;
+    color: white;
+    border-radius: 15px;
+}
+
+.ss .btn:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 1px 10px 0px black;
+}
+
+.explore {
+    padding: 30px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+
+}
+
+.explore h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.explore .explore_left {
+    float: left;
+    background-color: antiquewhite;
+    height: 200px;
+    width: 51%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+.explore .explore_left .explore_logo a {
+    padding: 7px;
+    margin-top: 2px;
+    color: rgb(109, 81, 67);
+}
+
+.explore .explore_left .explore_content {
+    float: left;
+}
+
+.explore .explore_left .explore_content h3 {
+    padding: 7px;
+}
+
+.explore .explore_left .explore_content a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.explore .explore_left .explore_content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.explore .explore_right {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    width: 50%;
+    background-color: antiquewhite;
+    height: 200px;
+    text-align: center;
+
+}
+
+.explore .explore_right .explore_logo a {
+    padding: 7px;
+    margin-top: 2px;
+    color: rgb(109, 81, 67);
+}
+
+.explore .explore_right .explore_content h3 {
+    padding: 7px;
+}
+
+.explore .explore_right .explore_content a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color: black;
+}
+
+.explore .explore_right .explore_content a:hover {
+    background-color: white;
+    color: black;
+}
+
+.r {
+    text-decoration: line-through;
+    background-color: coral;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
